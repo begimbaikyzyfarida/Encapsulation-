@@ -26,13 +26,13 @@ public class Main {
         schools[0].setAddress("Tungunchv56");
         schools[0].setStudent(500);
 
-        schools[0].setName("Akyltai School");
-        schools[0].setAddress("Archa-Beshik 23");
-        schools[0].setStudent(300);
+        schools[1].setName("Akyltai School");
+        schools[1].setAddress("Archa-Beshik 23");
+        schools[1].setStudent(300);
 
-        schools[0].setName("Seitek School");
-        schools[0].setAddress("Jal 789");
-        schools[0].setStudent(400);
+        schools[2].setName("Seitek School");
+        schools[2].setAddress("Jal 789");
+        schools[2].setStudent(400);
 
         Car[] cars = {
                 new Car("Toyota", "AAAA", 2020, 37000),
@@ -44,15 +44,15 @@ public class Main {
         cars[0].setYear(2020);
         cars[0].setPrice(37000);
 
-        cars[0].setMake("Honda");
-        cars[0].setModel("BBBB");
-        cars[0].setYear(2019);
-        cars[0].setPrice(12000);
+        cars[1].setMake("Honda");
+        cars[1].setModel("BBBB");
+        cars[1].setYear(2019);
+        cars[1].setPrice(12000);
 
-        cars[0].setMake("Mercedes");
-        cars[0].setModel("CCC");
-        cars[0].setYear(2018);
-        cars[0].setPrice(97000);
+        cars[2].setMake("Mercedes");
+        cars[2].setModel("CCC");
+        cars[2].setYear(2018);
+        cars[2].setPrice(97000);
 
 
         Person[] persons = {
@@ -64,13 +64,13 @@ public class Main {
         persons[0].setAge(25);
         persons[0].setGender("Male");
 
-        persons[0].setName("Tunuk");
-        persons[0].setAge(30);
-        persons[0].setGender("Female");
+        persons[1].setName("Tunuk");
+        persons[1].setAge(30);
+        persons[1].setGender("Female");
 
-        persons[0].setName("Nurles");
-        persons[0].setAge(25);
-        persons[0].setGender("Male");
+        persons[2].setName("Nurles");
+        persons[2].setAge(25);
+        persons[2].setGender("Male");
 
         System.out.println("\nUniversity объекттери:");
         for (University university : universities) {
@@ -91,10 +91,6 @@ public class Main {
         for (Person person : persons) {
             System.out.println(person.getName() + " - " + person.getAge() + " - " + person.getGender());
         }
-
-        schools[0].setAddress("Tungunchv56");
-        cars[0].setYear(37000);
-        persons[0].setAge(25);
 
         System.out.println("\nPerson объекттери :");
         for (Person person : persons) {
